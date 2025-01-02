@@ -2,11 +2,9 @@
 
 # how can we set ip?
 
-
 ```bash 
 cd /etc/netplan/
 ```
-
 ```bash
 ls 
 ```
@@ -15,7 +13,6 @@ ls
 ```bash
 vim 50-cloud-init.yaml
 ```
-
 ```bash 
 network:
     ethernets:
@@ -30,7 +27,6 @@ network:
                 addresses: [8.8.8.8, 1.1.1.1]
     version: 2
 ```
-
 ```bash
 cat 50-cloud-init.yaml
 ```
