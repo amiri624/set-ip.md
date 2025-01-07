@@ -30,3 +30,4 @@ network:
 ```bash
 cat 50-cloud-init.yaml
 ```
+~~meisam~~
