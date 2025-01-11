@@ -28,6 +28,9 @@ network:
     version: 2
 ```
 ```bash
+:wq
+```
+```bash
 cat 50-cloud-init.yaml
 ```
 ~~meisam~~
