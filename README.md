@@ -3,15 +3,15 @@
 # how can we set ip?
 
 ```bash 
-cd /etc/netplan/
+$ cd /etc/netplan/
 ```
 ```bash
-ls 
+$ ls 
 ```
 ### we see 50-cloud-init.yaml
 
 ```bash
-vim 50-cloud-init.yaml
+$ vim 50-cloud-init.yaml
 ```
 ```bash 
 network:
@@ -28,7 +28,7 @@ network:
     version: 2
 ```
 ```bash
-:wq
+$ :wq
 ```
 ```bash
 cat 50-cloud-init.yaml
