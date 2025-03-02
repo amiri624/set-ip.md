@@ -15,17 +15,18 @@ $ vim 50-cloud-init.yaml
 ```
 ```bash 
 network:
-    ethernets:
-        enp0s3:
-            dhcp4: true
-        enp0s8:
-            dhcp4: no
-            addresses:
-                - 192.168.178.10/24
-            gateway4: 192.168.178.1
-            nameservers:
-                addresses: [8.8.8.8, 1.1.1.1]
-    version: 2
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses:
+        - 192.168.1.100/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 8.8.4.4
 ```
 ```bash
 $ :wq
