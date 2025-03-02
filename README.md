@@ -1,7 +1,5 @@
 # set-ip.md
-
 # how can we set ip?
-
 ```bash 
 $ cd /etc/netplan/
 ```
@@ -9,7 +7,6 @@ $ cd /etc/netplan/
 $ ls 
 ```
 ### we see 50-cloud-init.yaml
-
 ```bash
 $ vim 50-cloud-init.yaml
 ```
