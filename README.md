@@ -8,7 +8,7 @@ ls
 ```
 ### we see 50-cloud-init.yaml
 ```bash
-$ vim 50-cloud-init.yaml
+vim 50-cloud-init.yaml
 ```
 ```bash 
 network:
