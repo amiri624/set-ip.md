@@ -26,7 +26,7 @@ network:
           - 8.8.4.4
 ```
 ```bash
-$ :wq
+:wq
 ```
 ```bash
 cat 50-cloud-init.yaml
