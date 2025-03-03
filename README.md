@@ -1,7 +1,7 @@
 # set-ip.md
 # how can we set ip?
 ```bash 
-$ cd /etc/netplan/
+cd /etc/netplan/
 ```
 ```bash
 ls 
