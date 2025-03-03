@@ -4,7 +4,7 @@
 $ cd /etc/netplan/
 ```
 ```bash
-$ ls 
+ls 
 ```
 ### we see 50-cloud-init.yaml
 ```bash
