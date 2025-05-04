@@ -1,5 +1,4 @@
 
-
 # set-ip.md
 # how can we set ip?
 ```bash 
